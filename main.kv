@@ -1,0 +1,15 @@
+<MainLayout>:
+    orientation: 'vertical'
+    Label:
+        id:Tela
+        text: "Sortear números da Mega"
+
+    BoxLayout:
+        orientation: 'horizontal'
+        Button:
+            text: "Sortear"
+            background_color: 0, 1, 0, 1  # Verde
+            color: 1, 1, 1, 1  # Branco
+            border_width: 2
+            border_color: 0, 0, 0, 1
+            on_release: root.alterar_label()
